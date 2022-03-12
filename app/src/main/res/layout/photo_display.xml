@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/album_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Album Id:"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/id6"
+        android:layout_below="@+id/album_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Id:"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title3"
+        android:layout_below="@+id/id6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Title:"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_image"
+        android:layout_below="@+id/title3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+
+</RelativeLayout>

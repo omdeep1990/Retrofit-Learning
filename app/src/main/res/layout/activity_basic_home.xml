@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    tools:context=".Activity.BasicHomeActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:textSize="15dp"
+        android:padding="@dimen/cardview_default_radius"
+        android:text="JSON Placeholder"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tmdb"
+        android:layout_below="@+id/json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="15dp"
+        android:text="TMDB"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/weather"
+        android:layout_below="@+id/tmdb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="15dp"
+        android:text="Accu Weather"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/rapidApi"
+        android:layout_below="@+id/weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="15dp"
+        android:text="RapidAPI"
+        />
+
+</RelativeLayout>

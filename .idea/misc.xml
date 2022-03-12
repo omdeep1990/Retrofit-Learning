@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/drawable/button_rounded.xml" value="0.109" />
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/layout/activity_album.xml" value="0.33" />
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/layout/activity_basic_home.xml" value="0.25" />
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/layout/activity_comment.xml" value="0.2" />
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/layout/activity_home.xml" value="0.16" />
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/layout/activity_photo.xml" value="0.2" />
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/layout/activity_to_do.xml" value="0.2" />
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/layout/activity_users.xml" value="0.2" />
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/layout/album_display.xml" value="0.33" />
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/layout/comment_display.xml" value="0.32575757575757575" />
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/layout/datadisplay.xml" value="0.3143939393939394" />
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/layout/photo_display.xml" value="0.33" />
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/layout/todo_display.xml" value="0.33" />
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/layout/user_display.xml" value="0.33" />
+        <entry key="..\:/Education/Android Studio Chetu/My TestingMode projects/MyRetrofit/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.109" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
+  </component>
+</project>
