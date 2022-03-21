@@ -10,6 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class TmdbRetrofitApi {
     public static final String BASE_URL = "https://developers.themoviedb.org/";
 
+
     public static <S> S getInstance(Class<S> serviceClass) {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
