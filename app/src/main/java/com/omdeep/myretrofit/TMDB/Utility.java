@@ -5,6 +5,8 @@ import android.widget.Toast;
 
 public class Utility {
 
+
+
     public static final String KEY = "8f9c8284f8308268d7209afdb219a454";
     public static final String  IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
 

@@ -1,14 +1,10 @@
 package com.omdeep.myretrofit.TMDB;
-
-import android.app.Service;
-
 import com.google.gson.Gson;
-
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class TmdbRetrofitApi {
-    public static final String BASE_URL = "https://developers.themoviedb.org/";
+    public static final String BASE_URL = "https://api.themoviedb.org";
 
 
     public static <S> S getInstance(Class<S> serviceClass) {

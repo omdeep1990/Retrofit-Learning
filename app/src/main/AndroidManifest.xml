@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyRetrofit">
         <activity
+            android:name=".Activity.TmdbHomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".TMDB.TmdbMainActivity"
             android:exported="false" />
         <activity

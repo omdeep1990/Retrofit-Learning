@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.omdeep.myretrofit.R;
+import com.omdeep.myretrofit.TMDB.TmdbMainActivity;
 import com.omdeep.myretrofit.databinding.ActivityBasicHomeBinding;
 
 public class BasicHomeActivity extends AppCompatActivity implements View.OnClickListener{
@@ -18,6 +19,7 @@ public class BasicHomeActivity extends AppCompatActivity implements View.OnClick
         super.onCreate(savedInstanceState);
         setContentView(binding.getRoot());
         binding.json.setOnClickListener(this);
+        binding.tmdb.setOnClickListener(this);
 
 
     }
@@ -30,7 +32,8 @@ public class BasicHomeActivity extends AppCompatActivity implements View.OnClick
                 startActivity(intent);
                 break;
             case R.id.tmdb:
-
+                startActivity(new Intent(BasicHomeActivity.this, TmdbHomeActivity.class));
+                break;
             case R.id.weather:
 
             case R.id.rapidApi:
