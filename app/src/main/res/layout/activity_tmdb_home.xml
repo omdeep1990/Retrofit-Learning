@@ -35,7 +35,7 @@
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_marginTop="10dp"
-                        android:background="@drawable/movie"
+                        android:background="@drawable/popular_movies"
                         android:id="@+id/cardViewMovies"
                         android:textColor="#ffff"
                         android:layout_width="150dp"
@@ -60,9 +60,9 @@
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:layout_margin="20dp"
+                        android:layout_margin="10dp"
                         android:id="@+id/CardViewTvshow_airing_today"
-                        android:background="@drawable/tvshow"
+                        android:background="@drawable/tv_shows_arriving_today"
                         android:layout_width="150dp"
                         android:layout_height="150dp"/>
 
@@ -93,7 +93,7 @@
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_marginTop="10dp"
-                        android:background="@drawable/popularpeople"
+                        android:background="@drawable/popular_persons"
                         android:id="@+id/popular_persons"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
@@ -120,7 +120,7 @@
                         android:gravity="center"
                         android:layout_margin="20dp"
                         android:id="@+id/populartvshow"
-                        android:background="@drawable/populartvshow"
+                        android:background="@drawable/popular_tv_shows"
                         android:layout_width="150dp"
                         android:layout_height="150dp"/>
 
@@ -151,7 +151,7 @@
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_marginTop="10dp"
-                        android:background="@drawable/toprated"
+                        android:background="@drawable/rated_movies"
                         android:id="@+id/top_rate_tvShow"
                         android:textColor="#ffff"
                         android:layout_width="150dp"
